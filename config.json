@@ -1,0 +1,16 @@
+﻿{
+  "ApplicationConfiguration": {
+    "DataDirectoryPath": "ChainTestNet",
+    "CertCachePath": "Certs",
+    "NodePort": 20333,
+    "WsPort": 20334,
+    "UriPrefix": [ "http://*:20332" ],
+    "SslCert": "",
+    "SslCertPassword": "",
+    "Urls": {
+      "AddressUrl": "https://tpl-neo-scan.azurewebsites.net/{0}",
+      "AssetUrl": "https://tpl-neo-scan.azurewebsites.net/{0}",
+      "TransactionUrl": "https://tpl-neo-scan.azurewebsites.net/Transaction?TxID=0x{0}"
+    }
+  }
+}
